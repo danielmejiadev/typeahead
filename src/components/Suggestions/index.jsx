@@ -17,16 +17,16 @@ export function Suggestions() {
   return (
     <div className="suggestions">
       <ul role="tablist">
-        {suggestions.map((item) => (
+        {suggestions.map((suggestion) => (
           <li
             role="tab"
-            key={item.value}
+            key={suggestion.value}
             tabIndex="0"
-            onClick={() => selectSuggestion(item.value)}
-            onKeyDown={(event) => handleKeyup(event, item.value)}
+            onClick={() => selectSuggestion(suggestion.value)}
+            onKeyUp={(event) => handleKeyup(event, suggestion.value)}
           >
-            <b>{item.highlight}</b>
-            {item.rest}
+            <b>{suggestion.highlight}</b>
+            {suggestion.rest}
           </li>
         ))}
       </ul>
