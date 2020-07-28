@@ -1,3 +1,33 @@
+# App
+
+- The app was built using React, React context API, React Hooks.
+- App Live running on github pages [https://danielmejiadev.github.io/typeahead/](https://danielmejiadev.github.io/typeahead/)
+
+## Installation
+
+```bash
+$ yarn install
+```
+
+## Run locally
+
+```bash
+$ yarn start
+```
+
+## Deploy
+
+```bash
+$ yarn deploy
+```
+
+## Test
+
+```bash
+# unit tests
+$ yarn test
+```
+
 # Project Instructions
 
 - This app is currently in a broken state. You must create your component and add it to `ReactDOM.render` in `src/index.js` to get started.
