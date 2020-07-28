@@ -4,7 +4,7 @@ import React from 'react';
 // Hooks
 import { useTypeahead } from '../../hooks/useTypehead';
 
-// Stylesz
+// Styles
 import './styles.css'
 
 export function SearchInput() {

@@ -1,6 +1,7 @@
 # App
 
 - The app was built using React, React context API, React Hooks.
+- Using Github Actions to run integration pipelines
 - App Live running on github pages [https://danielmejiadev.github.io/typeahead/](https://danielmejiadev.github.io/typeahead/)
 
 ## Installation
